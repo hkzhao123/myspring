@@ -27,14 +27,12 @@ private static final Log logger = LogFactory.getLog(UserController.class);
 @RequestMapping(value = "/register",method = RequestMethod.POST)
     public String register(
             @RequestParam("loginname") String loginname,
-    @RequestParam("password") String password,
-    @RequestParam("username") String username)
+    @RequestParam("password") String password)
 {
     logger.info("register POST方法被调用...");
     User user = new User();
     user.setLoginname(loginname);
     user.setPassword(password);
-    user.setUsername(username);
     userList.add(user);
     return "loginForm";
 }

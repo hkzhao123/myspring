@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <a href="/springmvc_war_exploded/user/register">点击进行注册</a>
   </body>
 </html>

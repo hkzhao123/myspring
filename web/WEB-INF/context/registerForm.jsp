@@ -24,10 +24,6 @@
             <td><input type="password" id="password" name="password"></td>
         </tr>
         <tr>
-            <td><label>真实姓名: </label></td>
-            <td><input type="text" id="username" name="username" ></td>
-        </tr>
-        <tr>
             <td><input id="submit" type="submit" value="注册"></td>
         </tr>
     </table>
